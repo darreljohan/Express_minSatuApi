@@ -1,0 +1,8 @@
+Load User Activity awalnya sebuah method yang mereturn 2 buah key yang masing masing berisi Objek
+
+Namun karena masalah promise objeck tidak dapat disimpan sementar di key of json,
+maka dibagilah menjadi 2 method untuk memisahkan responses
+
+Load User Activity dibagi jadi 2 Method
+- loadUserActivityUpcoming untuk aktifitas yang akan datang\
+- loadUserActivityDone untuk aktifitas yang telah selesai

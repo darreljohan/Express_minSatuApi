@@ -1,0 +1,9 @@
+Load Start Home pada awalnya mengirim response berupa JSON dengan dua key yaitu near dan recommend
+
+Near mewakili data dari aktivitas terdekat
+recommend mewakili data dari aktivitas rekomendasi (fitur machine learning)
+
+Dikarenakan Promise Object cukup tricky, maka Load Start Home akan diubah menjadi 2 route 
+
+- /api/loadStartHomeNear : memberi response data dari aktivitas terdekat
+- /api/loadStartHomeRecommend : memberi response data dari aktivitas rekomendasi (fitur machine learning)
